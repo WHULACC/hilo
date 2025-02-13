@@ -1,0 +1,59 @@
+# cuda
+cuda_index: 0
+# model_name: ''
+
+# path
+data_dir: './data'
+dataset_dir: 'dataset'
+preprocessed_dir: preprocessed
+target_dir: save
+bert_path: bert-base-cased 
+emb_file: 'bert-base-cased.npy'
+
+# path
+# bert_path: bert-base-uncased 
+batch_size: 4
+epoch_size: 20
+dropout: 0.1
+max_length: 35
+total_length: 512
+loss_weight: 2.0
+
+# training
+shuffle: True
+bert_lr: 1e-5
+learning_rate: 1e-4
+patience: 100
+max_grad_norm: 1.0
+warmup_proportion: 0.1
+gradient_accumulation_steps: 1
+adam_epsilon: 1e-7
+warmup_steps: 0
+weight_decay: 0.00
+
+
+pad: '[PAD]'
+unk: '[UNK]'
+cls: '[CLS]'
+sep: '[SEP]'
+# path
+# pad: 0
+# unk: 1
+min_freq: 2
+
+# seed
+seed: 42
+
+emo_cat: 'yes'
+audio_dim: 6373
+video_dim: 4096
+# hid_size: 500
+# inner_dim: 300
+hid_size: 400
+inner_dim: 300
+alpha: 5
+graph_weight: 0.5
+num_heads: [4, 8]
+head2: 4
+hidden_dim: 1536 
+out_dim: 1536
