@@ -27,3 +27,19 @@ The dataset is located in data/dataset. Please follow the instructions in [data/
 ## Usage
 You can run the following command to train `&` evaluate the model:  
 `python main.py`
+
+## Citation
+If you use this code in your research, please cite our paper:
+```bibtex
+@article{li23mecpe,
+    author = {Li, Bobo and Fei, Hao and Li, Fei and Chua, Tat-seng and Ji, Donghong},
+    title = {Multimodal Emotion-Cause Pair Extraction with Holistic Interaction and Label Constraint},
+    year = {2024},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    issn = {1551-6857},
+    url = {https://doi.org/10.1145/3689646},
+    doi = {10.1145/3689646},
+    journal = {ACM Trans. Multimedia Comput. Commun. Appl.},
+}
+```
